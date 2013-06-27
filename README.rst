@@ -43,5 +43,5 @@ History
 
 0.1 (2013-06-27)
 
-  * Simple registration only
-  * Discovery that no one had this done and deployed to PyPI.
+  * Implemented simple registration (default is forthcoming).
+  * Discovery that no one had deployed this to PyPI.
