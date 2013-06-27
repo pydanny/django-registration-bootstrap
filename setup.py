@@ -83,7 +83,7 @@ setup(
     keywords='django',
     author=author,
     author_email='pydanny@gmail.com',
-    url='http://github.com/pydanny/django-registration',
+    url='http://github.com/pydanny/django-registration-bootstrap',
     license='MIT',
     packages=get_packages('registration_bootstrap'),
     include_package_data=True,
@@ -91,7 +91,6 @@ setup(
     install_requires=[
         'django>=1.5.0',
         'django-registration>=1.0.0',
-        #'django-floppyforms==1.1',
         'django-crispy-forms==1.3.2'
         ],
     zip_safe=False,
