@@ -90,15 +90,16 @@ setup(
     test_suite='runtests.runtests',
     install_requires=[
         'django>=1.5.0',
-        'django-registration>=1.0.0',
-        'django-crispy-forms==1.3.2'
+        'django-crispy-forms>=1.3.2'
+        # Took out django-registration because we also want to be able to
+        #   use django-reg if necessary
         ],
     zip_safe=False,
 )
 
 # (*) Please direct queries to Github issue list, rather than to me directly
 #     Doing so helps ensure your question is helpful to other users.
-#     Queries directly to my email are likely to receive a canned response, 
+#     Queries directly to my email are likely to receive a canned response,
 #       usually asking you to open an issue on Github.
 #
 #     Many thanks for your understanding.
